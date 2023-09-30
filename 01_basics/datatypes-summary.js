@@ -33,8 +33,38 @@ const heros = ["shaktiman", "doga"]
 // }
 
 const myFunction = function(){
-    console.log("Hello wolrd");
+    // console.log("Hello wolrd");
 
 }
 
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+
+
+
+
+
+//  **************** Memory ****************
+
+// stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Mukulchaudhary.com"
+
+let anothername = myYoutubename
+anothername = "coffeaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@aby"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mukuldx22@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+

@@ -52,10 +52,40 @@ const users = [
 
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+
+// <------------ de-structure and JSON API intro --------->
+
+const course = {
+    coursename: "JS in hindi",
+    price: "999",
+    courseIntructor: "Hitesh"
+}
+
+// course.courseIntructor
+
+const {courseIntructor: instructor} = course
+
+// console.log(courseIntructor);
+console.log(instructor);
+
+// {
+//     name :"mukul",
+//     coursename: "Js in hindi",
+//     price: "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+

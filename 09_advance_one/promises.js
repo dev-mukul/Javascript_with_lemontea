@@ -100,7 +100,7 @@ consumePromiseFive()
 // getAllUsers()
 
 
-fetch('https://api.github.com/users/dev-mukul')
+fetch('https://api.github.com/users/dev-mukul') 
 .then((response) => {
     return response.json()
 })
